@@ -14,6 +14,10 @@
     color: rgb(13, 19, 33);
 }
 
+p {
+    opacity: 0.7;
+}
+
 .bold-font {
     font-weight: 800;
     font-size: 32px;
@@ -66,6 +70,7 @@ header nav h3 {
     line-height: 68px;
     padding: 28px 0;
 }
+
 .nav-sec-btn {
     background-color: rgb(13, 19, 33);
     color: white;
@@ -76,4 +81,60 @@ header nav h3 {
     margin: 35px;
     font-size: 20px;
     font-weight: 600px;
+}
+
+/* web-dev section */
+.web-container {
+    width: 1140px;
+    margin: 80px auto;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    padding: 80px 97px 80px 97px
+}
+
+.web-text {
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.web-text h2 {
+    margin-top: 80px;
+    padding-bottom: 24px;
+}
+
+.web-text p {
+    padding-bottom: 48px;
+}
+
+.web-coding {
+    margin-top: 48px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.web-coding h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.web-coding-p {
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.web-coding-btn {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 20px;
+    background-color: transparent;
+    border:  1px solid rgb(13, 19, 33) ;
+    opacity: 0.7;
 }
