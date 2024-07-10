@@ -10,12 +10,25 @@
 }
 
 /* share styles */
+.mx-center {
+    width: 1140px;
+    margin: auto;
+    text-align: center;
+}
+
 .share-color {
     color: rgb(13, 19, 33);
 }
 
 p {
     opacity: 0.7;
+}
+
+a {
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    ;
+
 }
 
 .bold-font {
@@ -135,6 +148,70 @@ header nav h3 {
     text-align: center;
     padding: 12px 20px;
     background-color: transparent;
-    border:  1px solid rgb(13, 19, 33) ;
+    border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+}
+
+/* inspiration section */
+.inspiration-container {
+    margin: auto;
+    width: 1140px;
+    text-align: center;
+    margin-bottom: 150px;
+
+}
+
+.inspiration-content p {
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.youTube-video {
+    border-radius: 16px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+/* current-tgr section */
+
+.tgr-h {
+    padding-bottom: 24px;
+}
+
+.card-container {
+    display: flex;
+    gap: 25px;
+    margin-top: 48px;
+    text-align: start;
+}
+
+.card {
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.card-one {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.card-two {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.card-three {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.card-icon {
+    padding-bottom: 24px;
+}
+
+.card h4 {
+    padding-bottom: 8px;
+}
+
+.card p {
+    padding-bottom: 24px;
 }
