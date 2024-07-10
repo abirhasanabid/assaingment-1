@@ -11,11 +11,17 @@
 
 /* share styles */
 .mx-center {
-    width: 1140px;
+    width: 1320px;
     margin: auto;
     /* text-align: center; */
 }
-.text-center{
+
+.content-width {
+    width: 852px;
+    margin: auto;
+}
+
+.text-center {
     text-align: center;
 }
 
@@ -30,7 +36,6 @@ p {
 a {
     font-weight: 700;
     color: rgb(13, 19, 33);
-    ;
 
 }
 
@@ -106,7 +111,7 @@ header nav h3 {
     margin: 80px auto;
     background-color: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
-    padding: 80px 97px 80px 97px
+    padding: 80px 97px;
 }
 
 .web-text {
@@ -158,12 +163,13 @@ header nav h3 {
 
 /* inspiration section */
 .inspiration-container {
+    width: 1320px;
     margin: auto;
-    width: 1140px;
     text-align: center;
     margin-bottom: 150px;
 
 }
+
 
 .inspiration-content p {
     padding-top: 24px;
@@ -171,10 +177,11 @@ header nav h3 {
 }
 
 .youTube-video {
+    width: 1076px;
+    margin: auto;
     border-radius: 16px;
     text-align: center;
-    padding: 20px;
-    border: 1px solid rgba(13, 19, 33, 0.2);
+    padding: 20px 20px;
     border-radius: 16px;
 }
 
@@ -222,17 +229,17 @@ header nav h3 {
 }
 
 /* next -tgr section */
-.next-tgr-content
-{
+.next-tgr-content {
     text-align: center;
     padding-bottom: 48px;
-    width: 852px;
-    margin: auto;
+
 }
-.next-tgr-content h2{
+
+.next-tgr-content h2 {
     padding-bottom: 24px;
 }
-.next-tgr-box{
+
+.next-tgr-box {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -241,12 +248,59 @@ header nav h3 {
     padding: 50px;
     border-radius: 16px;
     margin-bottom: 24px;
-    
+
 }
 
-.next-tgr-box h3{
+.next-tgr-box h3 {
     padding-bottom: 8px;
 }
-.next-tgr-box p{
+
+.next-tgr-box p {
     padding-bottom: 24px;
+}
+
+/* support section */
+.support-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.979), rgba(0, 0, 0, 0.082), rgba(0, 0, 0, 0.507)), url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 314px;
+    width: 1215px;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.support-content {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.support-discription{
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+.support-discription,
+.support-heading {
+    color: white;
+}
+
+.type-text {
+    border: none;
+    padding: 20px 200px 20px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.type-submit {
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
 }
