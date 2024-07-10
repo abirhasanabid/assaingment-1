@@ -13,6 +13,9 @@
 .mx-center {
     width: 1140px;
     margin: auto;
+    /* text-align: center; */
+}
+.text-center{
     text-align: center;
 }
 
@@ -35,6 +38,7 @@ a {
     font-weight: 800;
     font-size: 32px;
     line-height: 35px;
+    color: rgb(13, 19, 33);
 }
 
 /* share end */
@@ -185,6 +189,7 @@ header nav h3 {
     gap: 25px;
     margin-top: 48px;
     text-align: start;
+    margin-bottom: 110px;
 }
 
 .card {
@@ -213,5 +218,35 @@ header nav h3 {
 }
 
 .card p {
+    padding-bottom: 24px;
+}
+
+/* next -tgr section */
+.next-tgr-content
+{
+    text-align: center;
+    padding-bottom: 48px;
+    width: 852px;
+    margin: auto;
+}
+.next-tgr-content h2{
+    padding-bottom: 24px;
+}
+.next-tgr-box{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    padding: 50px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    
+}
+
+.next-tgr-box h3{
+    padding-bottom: 8px;
+}
+.next-tgr-box p{
     padding-bottom: 24px;
 }
