@@ -180,12 +180,15 @@ header nav h3 {
 }
 
 .youTube-video {
-    width: 1076px;
+    width: 1280px;
     margin: auto;
     border-radius: 16px;
     text-align: center;
-    padding: 20px 20px;
+    padding: 15px 15px;
     border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+
 }
 
 /* current-tgr section */
